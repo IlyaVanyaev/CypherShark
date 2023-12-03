@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Sypher Shark"
+rootProject.name = "Cypher Shark"
 include(":app")

@@ -1,4 +1,4 @@
-package com.example.syphershark
+package com.example.cyphershark
 
 import org.junit.Test
 

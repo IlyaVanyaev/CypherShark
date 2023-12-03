@@ -1,4 +1,4 @@
-package com.example.syphershark
+package com.example.cyphershark
 
 import android.annotation.SuppressLint
 import android.content.ClipData
@@ -8,20 +8,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
-import android.util.Log
 import android.view.MotionEvent
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
-import android.view.animation.Transformation
 import android.widget.Toast
+import com.example.syphershark.R
 import com.example.syphershark.databinding.ActivityMainBinding
+
 import java.util.Base64
-import java.util.Base64.Decoder
 import javax.crypto.Cipher
 import javax.crypto.KeyGenerator
-import javax.crypto.KeyGeneratorSpi
 import javax.crypto.SecretKey
-import javax.crypto.spec.SecretKeySpec
 
 class MainActivity : AppCompatActivity() {
 
